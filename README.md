@@ -26,3 +26,8 @@ cd .. = parnes mus uz failu zemākk, (piemeram ja mes bijam /home/user/Music, p�
 cd ~/(failanosaukums) = var parnest mus no pašas zemakas uz augstako failu
 mkdir (nosaukums) = izveido jaunu failu sistema
 rmdir (faila nosaukums) = noņem šo failu no sistemas
+gScripts
+cmkdir Mape
+ccd Mape
+ mdkir MapeMape
+ git clone https:/github.com/Serzh2018/RTR105 

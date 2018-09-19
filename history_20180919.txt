@@ -1,0 +1,49 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  "mkdir Mape"
+    4  echo "mkdir Mape"
+    5  echo "mkdir Mape" > mans_skripts.sh"
+    6  ls
+    7  exit
+    8  echo &
+    9  sh
+   10  nano Mape
+   11  nano mans skripts
+   12  echo $PATH
+   13  pwd
+   14  PATH=$PATH:~
+   15  echo $PATH
+   16  ls -l
+   17  chmod 764 Mape
+   18  ls -l
+   19  cd Mape/
+   20  cd Mape
+   21  pwd
+   22  cat Mape
+   23  cat/bin/ls
+   24  cat /bin ls
+   25  cat /bin/ls
+   26  62;c
+   27  nano Mape
+   28  Mape
+   29  ls
+   30  pwd
+   31  /home/user/Mape
+   32  ls
+   33  ./Mape
+   34  ~/Mape
+   35  git clone https://github.com/Serzh2018/RTR105
+   36  ls -l
+   37  cd RTR105$ 
+   38  cd RTR105
+   39  nano readme.md
+   40  cd..
+   41  cd user/
+   42  ls
+   43  ls -l
+   44  nano README.md
+   45  nano git-upload
+   46  ls -l
+   47  chmod 764 git-upload
+   48  ls -l
+   49  history > history_20180919.txt

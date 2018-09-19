@@ -47,3 +47,12 @@
    47  chmod 764 git-upload
    48  ls -l
    49  history > history_20180919.txt
+   50  ls -l
+   51  ./git-upload 
+   52  ./git-upload 20180919_09_50
+   53  python
+   54  ipython
+   55  idle
+   56  idle &
+   57  ls -l
+   58  history > history_20180919.txt

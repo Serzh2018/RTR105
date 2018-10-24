@@ -1,0 +1,6 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  pwd
+    5  ls -l
+    6  history > history20181024

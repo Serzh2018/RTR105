@@ -3,33 +3,20 @@ Python 2.7.12 (default, Dec  4 2017, 14:50:18)
 Type "copyright", "credits" or "license()" for more information.
 >>> vars()
 {'__builtins__': <module '__builtin__' (built-in)>, '__name__': '__main__', '__doc__': None, '__package__': None}
->>> __builtins__
-<module '__builtin__' (built-in)>
+>>> __bu
+
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    __bu
+NameError: name '__bu' is not defined
 >>> __builtins__.__doc__
 "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices."
 >>> print(__builtins__.__doc__)
 Built-in functions, exceptions, and other objects.
 
 Noteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
->>> print __builtins__.__doc__
-Built-in functions, exceptions, and other objects.
-
-Noteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
->>> print __builtins__.__doc__
-Built-in functions, exceptions, and other objects.
-
-Noteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
->>> print __builtins__.__doc
-
-Traceback (most recent call last):
-  File "<pyshell#6>", line 1, in <module>
-    print __builtins__.__doc
-AttributeError: 'module' object has no attribute '__doc'
 >>> abs(10)
 10
->>> abs(-10_
-    
-SyntaxError: invalid syntax
 >>> abs(-10)
 10
 >>> a = abs(-10)
@@ -49,10 +36,12 @@ SyntaxError: invalid syntax
 >>> a * b
 
 Traceback (most recent call last):
-  File "<pyshell#18>", line 1, in <module>
+  File "<pyshell#14>", line 1, in <module>
     a * b
 NameError: name 'b' is not defined
->>> a = 10
+>>> a =10
+>>> a.__doc__
+"int(x=0) -> int or long\nint(x, base=10) -> int or long\n\nConvert a number or string to an integer, or return 0 if no arguments\nare given.  If x is floating point, the conversion truncates towards zero.\nIf x is outside the integer range, the function returns a long instead.\n\nIf x is not a number or if base is given, then x must be a string or\nUnicode object representing an integer literal in the given base.  The\nliteral can be preceded by '+' or '-' and be surrounded by whitespace.\nThe base defaults to 10.  Valid bases are 0 and 2-36.  Base 0 means to\ninterpret the base from the string as an integer literal.\n>>> int('0b100', base=0)\n4"
 >>> print a.__doc__
 int(x=0) -> int or long
 int(x, base=10) -> int or long
@@ -70,12 +59,6 @@ interpret the base from the string as an integer literal.
 4
 >>> vars()
 {'__builtins__': <module '__builtin__' (built-in)>, '__name__': '__main__', '__doc__': None, 'a': 10, '__package__': None}
->>> tye(a)
-
-Traceback (most recent call last):
-  File "<pyshell#22>", line 1, in <module>
-    tye(a)
-NameError: name 'tye' is not defined
 >>> type(a)
 <type 'int'>
 >>> b = 1.5
@@ -90,17 +73,15 @@ Convert a string or number to a floating point number, if possible.
 >>> c = D
 
 Traceback (most recent call last):
-  File "<pyshell#28>", line 1, in <module>
+  File "<pyshell#24>", line 1, in <module>
     c = D
 NameError: name 'D' is not defined
->>> c = 'D'
+>>> c ="D"
 >>> print c.__doc__
 str(object='') -> string
 
 Return a nice string representation of the object.
 If the argument is a string, the return value is the same object.
->>> vars()
-{'a': 10, 'c': 'D', 'b': 1.5, '__builtins__': <module '__builtin__' (built-in)>, '__package__': None, '__name__': '__main__', '__doc__': None}
 >>> type(c)
 <type 'str'>
 >>> 

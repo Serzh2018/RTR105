@@ -1,58 +1,64 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  "mkdir Mape"
-    4  echo "mkdir Mape"
-    5  echo "mkdir Mape" > mans_skripts.sh"
-    6  ls
-    7  exit
-    8  echo &
-    9  sh
-   10  nano Mape
-   11  nano mans skripts
-   12  echo $PATH
-   13  pwd
-   14  PATH=$PATH:~
-   15  echo $PATH
+    3  echo "mkdir Mape"
+    4  echo "mkdir Mape" > mans_skripts.sh
+    5  ls
+    6  cat mans_skripts.sh 
+    7  nano mans_skripts.sh 
+    8  ls -l
+    9  cat mans_skripts.sh 
+   10  echo $PATH
+   11  pwd
+   12  PATH=$PATH:~
+   13  echo $PATH
+   14  ls -l
+   15  chmod 764 mans_skripts.sh 
    16  ls -l
-   17  chmod 764 Mape
+   17  mans_skripts.sh 
    18  ls -l
    19  cd Mape/
-   20  cd Mape
-   21  pwd
-   22  cat Mape
-   23  cat/bin/ls
-   24  cat /bin ls
-   25  cat /bin/ls
-   26  62;c
-   27  nano Mape
-   28  Mape
+   20  ls -l
+   21  cd
+   22  pwd
+   23  ls
+   24  cat /bin/ls
+   25  nano mans_skripts.sh 
+   26  ls
+   27  mans_skripts.sh 
+   28  /home/user/mans_skripts.sh 
    29  ls
-   30  pwd
-   31  /home/user/Mape
-   32  ls
-   33  ./Mape
-   34  ~/Mape
-   35  git clone https://github.com/Serzh2018/RTR105
-   36  ls -l
-   37  cd RTR105$ 
-   38  cd RTR105
-   39  nano readme.md
-   40  cd..
-   41  cd user/
-   42  ls
-   43  ls -l
-   44  nano README.md
-   45  nano git-upload
-   46  ls -l
-   47  chmod 764 git-upload
-   48  ls -l
-   49  history > history_20180919.txt
-   50  ls -l
-   51  ./git-upload 
-   52  ./git-upload 20180919_09_50
-   53  python
-   54  ipython
-   55  idle
-   56  idle &
-   57  ls -l
-   58  history > history_20180919.txt
+   30  ./mans_skripts.sh 
+   31  ~/mans_skripts.sh 
+   32  git clone https://github.com/Smirnovs1712/RTR105
+   33  git clone https://github.com/Smirnovs17/RTR105
+   34  ls -l
+   35  ~/RTR105/
+   36  ~/RTR105$ pwd
+   37  ~/RTR105
+   38  ~/RTR105$ ls -l
+   39  ~/RTR105$
+   40  ~/RTR105$ pwd
+   41  ~/RTR105$ nano README.md
+   42  ls -l
+   43  cd RTR105/
+   44  ls -l
+   45  nano README.md 
+   46  pwd
+   47  ls -l
+   48  nano git-upload
+   49  ls -l
+   50  chmod 764 git-upload
+   51  ls -l
+   52  history > history_20180919.txt
+   53  ls -l
+   54  ./git-upload 
+   55  ./git-upload 20180919_09_50
+   56  nano git-upload
+   57  ./git-upload 20180919_09_50
+   58  python
+   59  ipython
+   60  idle
+   61  idle &
+   62  pwd
+   63  ls -l
+   64  history > history_20180919.txt

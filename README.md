@@ -1,16 +1,46 @@
 # RTR105
 Darmacības kursa elektroniska klade
-uname - ļauj apskatit lietotaja nosaukumu
-Ctrl+Alt+T - ļauj atvert Shell valodas logu
-Ctrl+L - ekrana attirīšana
-pwd - ļauj uzzināt mūsu vietu
-who - ļauj uzzināt kas es esmu
-man + jebkura komanda - ļauj uzzināt informāciju par šo komandu
-uname -a - informācija par lietotāju
-burts>Tab - ļauj dabut sarakstus
-history - komandas vēsture
-ls -a - ļauj uzzināt informāciju par failiem
-q - ļauj izziet no "man" komandas
-mkdir- ļauj uztaisit jaunu mapi
-echo- ļauj parvietot datus uz citiem failiem
-cd- ļauj ienakt uz directoriju
+### Pārvietošanas failu sistēma  
+**cd** - change directory  
+**.** - current directory
+VirtualBox --startvm XP
+quartus
+pwd
+nano mans_pirmais_skripts.sh
+ls -l
+ls
+ls -l
+ls
+echo $PATH
+cat mans_pirmais_skripts.sh 
+cat /bin/ls
+echo $PATH
+pwd
+PATH=$PATH:~
+echo $PATH
+ls -l
+chmod 764 mans_pirmais_skripts.sh 
+ls -l
+mans_pirmais_skripts.sh 
+ls -l
+cd Mape/
+ls -l
+cd ..
+ls -l
+pwd
+/home/user/mans_pirmais_skripts.sh 
+./mans_pirmais_skripts.sh 
+pwd
+~/mans_pirmais_skripts.sh 
+git clone https://github.com/Serzh2018/RTR105
+ls -l
+cd RTR105/
+ls -l
+nano README.md 
+history
+nano README.md 
+pwd
+ls -l
+nano git-upload 
+ls -l
+history > history_20180920.txt

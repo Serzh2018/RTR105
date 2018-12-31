@@ -1,0 +1,64 @@
+VirtualBox --startvm XP
+quartus
+echo "mkdir Mape"
+echo "mkdir Mape" > mans_skripts.sh
+ls
+cat mans_skripts.sh 
+nano mans_skripts.sh 
+ls -l
+cat mans_skripts.sh 
+echo $PATH
+pwd
+PATH=$PATH:~
+echo $PATH
+ls -l
+chmod 764 mans_skripts.sh 
+ls -l
+mans_skripts.sh 
+ls -l
+cd Mape/
+ls -l
+cd
+pwd
+ls
+cat /bin/ls
+nano mans_skripts.sh 
+ls
+mans_skripts.sh 
+/home/user/mans_skripts.sh 
+ls
+./mans_skripts.sh 
+~/mans_skripts.sh 
+git clone https://github.com/Smirnovs1712/RTR105
+git clone https://github.com/Smirnovs17/RTR105
+ls -l
+~/RTR105/
+~/RTR105$ pwd
+~/RTR105
+~/RTR105$ ls -l
+~/RTR105$
+~/RTR105$ pwd
+~/RTR105$ nano README.md
+ls -l
+cd RTR105/
+ls -l
+nano README.md 
+pwd
+ls -l
+nano git-upload
+ls -l
+chmod 764 git-upload
+ls -l
+history > history_20180919.txt
+ls -l
+./git-upload 
+./git-upload 20180919_09_50
+nano git-upload
+./git-upload 20180919_09_50
+python
+ipython
+idle
+idle &
+pwd
+ls -l
+history > history_20180919.txt

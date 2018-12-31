@@ -29,8 +29,7 @@ mans_skripts.sh
 ls
 ./mans_skripts.sh 
 ~/mans_skripts.sh 
-git clone https://github.com/Smirnovs1712/RTR105
-git clone https://github.com/Smirnovs17/RTR105
+git clone https://github.com/Serzh2018/RTR105
 ls -l
 ~/RTR105/
 ~/RTR105$ pwd

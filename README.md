@@ -85,7 +85,7 @@ $PATH /vide mainīgais kurš apraksta mapes kurās var atrasties skripti
 whereis firefox /atrašanaš vieta firefox
 create_in.sh /
 echo -e "mkdir Mape\ncd Mape" > create_in.sh /uztaisīt mapi
-git clone htps://github.com/didzis1999/RTR105 /piesaistīt githubu
+git clone htps://github.com/Serzh2018/RTR105 /piesaistīt githubu
 cd /RTR105 /ieiet savā
 nano README.md /editot readme
 ./git-upload 20180918_14_05 /apskatīties un saglabāt pēdējās darbības
@@ -102,7 +102,7 @@ ord(burts) /burta numurs
 hex(ord(burts)) / burta hex skaitlis
 bin(ord(burts)) /burta binārais skaitlis
 PATH=$PATH:~ - piešķiramās operācijas
-git clone https://github.com/181REB281/RTR105 -
+git clone https://github.com/181REB295/RTR105 -
 git pull - quick fix ja ir divi branches
 python - atver python
 vars() - parāda darbības
